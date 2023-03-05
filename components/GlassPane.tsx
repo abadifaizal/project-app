@@ -1,7 +1,7 @@
 import clsx from "clsx"
 
 const GlassPane = ({children, className}) => {
-  return <div className={clsx('glass rounded-2xl border-solid border-2 border-gray-200', className)}>
+  return <div className={clsx('glass rounded-2xl border-solid border-2 border-gray-200 p-4 justify-center gap-6', className)}>
     {children}
   </div>
 }
